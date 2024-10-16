@@ -1,0 +1,82 @@
+.topo_topico{
+background-color: var(--cor-cabecalho);
+
+}
+
+.topicos{
+    background: var(--fundo-botao);
+    text-align: center;
+    border-top: 1em;
+    border-color: var(--cor-cabecalho);
+    border-style: solid;
+
+    
+
+}
+
+.topicos_titulo{
+    color: var(--cor-cabecalho);
+    padding: 1.5em;
+    font-family: var(--fonte-principal);
+    font-weight: 300;
+
+}
+
+.topicos_lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+
+.topicos_item{
+    margin: 2em 0.5em;
+}
+
+.topicos_link{
+    background-color: var(--titulo-menu);
+    padding: 1em ;
+    text-decoration: none;
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 14;
+    color: var(--cor-cabecalho);
+    text-align: center;
+}
+
+.cadastro{
+    background-color: var(--cor-cabecalho);
+    padding: 2em 0 3em 0;
+}
+
+.cadastro_titulo{
+    color: var(--cor_texto);
+    font-size: 18;
+    font-weight: 500;
+}
+
+.cadastro_texto{
+    color: var(--cor_texto);
+    font-size: 16;
+    font-weight: 300;
+    padding: 1em 0 2em 0;
+
+}
+
+.cadastro_link{
+    text-align:center;
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cor_texto);
+    background: url("..//img/carta.svg") no-repeat;
+    background-position: 3em;
+    background-color: transparent;
+    border: 1px solid;
+    border-color: var(--cor_texto);
+    border-radius: 24px;
+    padding: 0.5em 5em;
+    width: 100%;
+    text-decoration: none;
+}
