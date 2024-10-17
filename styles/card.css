@@ -9,6 +9,7 @@
 
 .card_descricao{
     display: flex;
+    justify-content: space-between;
 }
 
 .descricao{
