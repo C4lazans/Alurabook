@@ -24,7 +24,8 @@
     display: none;
     position: absolute;
     top: 100%;
-    width: 60vw;
+    width: 20vw;
+    padding-left: 35vw;
 }
 
 .botao_menu:checked ~ .lista-menu{
@@ -53,4 +54,70 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
+}
+
+.titulo_alura{
+    display: none;
+}
+
+.cabecalho_tablet{
+    display: none;
+}
+
+@media screen and (min-width: 1024px){
+
+    .titulo_alura{
+        display: block;
+        font-family: var(--fonte-secundaria);
+        font-size: 30px;
+        font-weight: 400;
+        padding: 1em 0 0.5em 0.2em;
+    }
+
+    .titulo_alura-negrito{
+        font-weight: 700;
+
+    }
+
+    .cabecalho__menu-hamburguer{
+        display: none;
+    }
+
+    .imagem_logo{
+        margin: 0 0 0 3em;
+    }
+    
+    .cabecalho_tablet{
+        display: flex;
+    }
+
+    .cabecalho_tablet-lista{
+        display: flex;
+    }
+
+    .lista-menu_item-tb{
+        padding: 0 0.5em;
+        
+    }
+
+    .lista-menu_link-tb{
+        font-family: var(--fonte-primaria);
+        font-weight: 400;
+        font-size: 10;
+        text-decoration: none;
+        color: var(--fonte-preta);
+    }
+
+    .cabecalho_menu-tb{
+        display: none;
+    }
+
+    .coraçao{
+        display: none;
+    }
+    
+    .icones_cabeçalho{
+        padding: 0 1em ;
+    }
+
 }

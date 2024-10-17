@@ -80,3 +80,23 @@ background-color: var(--cor-cabecalho);
     width: 100%;
     text-decoration: none;
 }
+
+@media screen and (min-width: 1024px){
+
+    .topicos_link{
+        font-size: 24px;
+        padding: 1em 1.5em;
+    }
+
+    .cadastro{
+        display: flex;
+        padding: 3em 10vw;
+    }
+
+    .cadastro_link{
+        margin: 2em;
+        width: 30vw;
+        padding: 0.5em;
+        background-position: 2em;
+    }
+}

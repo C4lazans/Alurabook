@@ -18,3 +18,14 @@
     position: initial;
     margin: 0.5em 0;
 }
+
+@media screen and (min-width: 1024px){
+
+    .swiper-slide img{
+        width: 60%;
+        padding-left: 6vw;
+    }
+
+    
+    
+}

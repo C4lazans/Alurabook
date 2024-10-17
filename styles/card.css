@@ -63,9 +63,6 @@
 
 }
 
-.botoes_item{
-
-}
 
 
 .card_botao{
@@ -82,4 +79,16 @@
 
 .estrelas{
     padding: 0.5em 0;
+}
+
+@media screen and (min-width: 1024px){
+
+    .card{
+        width: 50vw;
+        margin: 1em 25%;
+    }
+
+    .icones_botoes{
+        margin: 1em 0;
+    }
 }
