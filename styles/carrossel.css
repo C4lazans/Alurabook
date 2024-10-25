@@ -1,4 +1,4 @@
-.carrossel_titulo{
+///*.carrossel_titulo{
     background-color: var(--cor-cabecalho);
     color: var(--titulo-menu);
     text-align: center;
@@ -28,4 +28,24 @@
 
     
     
+}
+
+@media screen and (min-width: 1728px){
+
+/*.carrossel-desktop{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+    align-items: center;
+}
+
+.swiper-slide img{
+    width: 70%;
+}*/
+
+.carrossel-desktop{
+    
+}
+
+
 }
